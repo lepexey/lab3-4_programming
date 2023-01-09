@@ -36,4 +36,5 @@ public abstract class Thing implements Thingsable {
         Thing thing = (Thing) o;
         return name.equals(thing.name);
     }
+
 }
